@@ -2,8 +2,10 @@
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 400px) {
-
+@media (min-width: 374px) {
+	#landing_title h1 {
+		font-size: 15px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -13,7 +15,53 @@
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 992px) {
-	.nav_menus {
-		display: block;
+	ul {
+		margin-top: 20px;
+	}
+	/*nav bar right side listing seciton */
+	.nav_menus a {
+		color: black;	
+		font-size: 18px;
+	}
+	.nav li a:hover {
+		color: orange;	
+		background-color: white;
+	}
+	.nav li a:focus {
+		color: orange;	
+		background-color: white;
+	}
+	/*nav bar brand icon [] */
+	#brand_icon {
+		color: orange;
+		font-size: 33px;
+	}
+	/*nav bar brand section */
+	.navbar-default .navbar-brand {
+		font-size: 20px;
+		color: black;
+		margin-top: 20px;
+	}
+	.navbar-default .navbar-brand:hover {
+		color: orange;
+	}
+	/*navbar container*/
+	.navbar-default {
+		background-color: white;
+		margin-left: 50px;
+		margin-right: 50px;
+		border: none;
+	}
+
+	/*Landing page heading*/
+	#landing_title h1 {
+		text-align: center;
+		font-size: 5em;
 	}
 }
+
+
+#temporary {
+	text-align: center;
+}
+

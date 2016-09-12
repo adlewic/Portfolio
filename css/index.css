@@ -56,12 +56,19 @@
 	/*Landing page heading*/
 	#landing_title h1 {
 		text-align: center;
-		font-size: 5em;
+		font-size: 75px;
+		margin-top: 140px;
+	}
+	#title_icon {
+		color: orange;
+		font-size: 90px;
+	}
+	#landing_title p {
+		text-align: right;
+		font-size: 30px;
+		color: orange;
+		margin-right: 85px;
 	}
 }
 
-
-#temporary {
-	text-align: center;
-}
 

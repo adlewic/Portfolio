@@ -58,17 +58,21 @@
 	#landing_title h1 {
 		text-align: center;
 		font-size: 75px;
-		margin-top: 140px;
+		margin-top: 350px;
 	}
 	#title_icon {
 		color: orange;
 		font-size: 90px;
 	}
+	#title_heading {
+		margin-right: 5%;
+		border: 1px solid black;
+	}
 	#landing_title p {
-		text-align: right;
+		text-align: center;
 		font-size: 30px;
 		color: orange;
-		margin-right: 85px;
+		margin-left: 350px;
 	}
 	/*arry color secion2*/
 	.array_color {
@@ -79,7 +83,7 @@
 		color: orange;
 		font-size: 40px;
 		display: inline-block;
-		width: 150px;
+		width: 130px;
 		margin-left: 30px;
 		text-align: center;
 	}
@@ -88,15 +92,14 @@
 		font-size: 18px;
 	}
 	#project_section {
-		margin-top: 250px;
-		height: 600px;
+		margin-top: 210px;
 	}
 	.project_links {
 		display: inline-block;
-		margin-left: 13%;
+		margin-left: 15%;
 	}
 	.project_description {
-		margin-left: 13%;
+		margin-left: 15%;
 		font-size: 11px;
 	}
 
@@ -108,16 +111,16 @@
 	#project_section ul li a {
 		text-decoration: none;
 		color: grey;
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	}
 	#project_section ul li a:hover {
 		color: orange;
-		font-size: 23px;
+		font-size: 22px;
 		text-decoration: underline;
 	}
 		#project_section ul li a:active {
-		font-size: 22px;
+		font-size: 21px;
 		text-decoration: underline;
 	}
 }

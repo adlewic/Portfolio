@@ -36,6 +36,7 @@
 		color: orange;
 		font-size: 33px;
 	}
+	
 	/*nav bar brand section */
 	.navbar-default .navbar-brand {
 		font-size: 20px;
@@ -68,6 +69,56 @@
 		font-size: 30px;
 		color: orange;
 		margin-right: 85px;
+	}
+	/*arry color secion2*/
+	.array_color {
+		color: orange;
+	}
+	/*equal sign project section */
+	.orange_section {
+		color: orange;
+		font-size: 40px;
+		display: inline-block;
+		width: 150px;
+		margin-left: 30px;
+		text-align: center;
+	}
+	.array_section {
+		display: inline-block;
+		font-size: 18px;
+	}
+	#project_section {
+		margin-top: 250px;
+		height: 600px;
+	}
+	.project_links {
+		display: inline-block;
+		margin-left: 13%;
+	}
+	.project_description {
+		margin-left: 13%;
+		font-size: 11px;
+	}
+
+	#project_section ul li {
+		list-style: none;
+		margin-top: 65px;
+	}
+
+	#project_section ul li a {
+		text-decoration: none;
+		color: grey;
+		font-size: 22px;
+		text-decoration: underline;
+	}
+	#project_section ul li a:hover {
+		color: orange;
+		font-size: 23px;
+		text-decoration: underline;
+	}
+		#project_section ul li a:active {
+		font-size: 22px;
+		text-decoration: underline;
 	}
 }
 

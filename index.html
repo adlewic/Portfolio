@@ -6,8 +6,9 @@
 	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="fullpageJS/jquery.fullPage.css" />
-	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<!-- fullpage.js -->
+	<link rel="stylesheet" type="text/css" href="fullpageJS/jquery.fullPage.css">
+	<script type="text/javascript" src="fullpageJS/jquery.fullPage.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,7 +32,7 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-right nav_menus">
-	        <li class="nav_menus"><a href="#ddd">Projects</a></li>
+	        <li class="nav_menus"><a href="#projects">Projects</a></li>
 	        <li class="nav_menus"><a href="#about_nav">About</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -39,7 +40,8 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
-	<div class="container">
+<div id="fullpage">
+	<div class="container section">
 		<div class="row">
 			<div class="col-md-12 col-xs-12" id="landing_title">
 				<h1><span id="title_icon">[ ]</span> James Hwang </h1>
@@ -48,8 +50,8 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
-		<div class="row" id="ddd">
+	<div class="container-fluid section">
+		<div class="row" id="projects">
 			<div class="col-md-12 col-xs-12" id="project_section">
 				<ul>
 					<li>
@@ -147,7 +149,7 @@
 		</div>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container-fluid section">
 		<div class="row" id="about_nav">
 			<div class="col-md-12 col-xs-12" id="about_section">
 				<div id="say_hello">
@@ -191,6 +193,8 @@
 	</div>
 
 	<p id="copyright">Copyright(&copy) by James Hwang(Developer) & Imelda Alonso(Designer), 2016</p>
+</div> <!-- fullpage div ends !--> 
 
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>

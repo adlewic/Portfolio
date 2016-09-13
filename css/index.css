@@ -75,12 +75,14 @@ body {
 	display: inline-block;
 }
 .project_description {
+	color: grey;
 	font-size: 11px;
 }
 .detail_description {
 	font-size: 12px;
 	margin-left: 2%;
 	width: 290px;
+	color: grey;
 }
 #project_section ul li {
 	list-style: none;
@@ -88,7 +90,7 @@ body {
 }
 
 #project_section ul li a {
-	color: grey;
+	color: black;
 	font-size: 18px;
 	text-decoration: underline;
 }
@@ -117,13 +119,14 @@ body {
 #say_hello2 {
 	color: orange;
 	display: inline-block;
-	margin-left: 15%;
+	margin-left: 7%;
 }
 #about_me {
-	margin-left: 16%;
+	margin-left: 11%;
 	margin-top: 10px;
-	width: 260px;
+	width: 290px;
 	font-size: 13px;
+	color: grey;
 }
 #contacts ul {
 	margin-top: 40px;
@@ -136,7 +139,7 @@ body {
 	margin-top: 15px;
 }
 #contacts ul li a{
-	color: grey;
+	color: black;
 	font-size: 16px;
 }
 #contacts ul li a:hover{
@@ -156,6 +159,7 @@ body {
 	width: 350px;
 	margin-top: 100px;
 	padding-bottom: 10px;
+	color: grey;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -279,7 +283,6 @@ body {
 		margin-right: 40px;
 	}
 	#project_section ul li a {
-		color: grey;
 		font-size: 21px;
 	}
 	#project_section ul li a:hover {

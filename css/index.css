@@ -7,9 +7,6 @@ body {
 .fp-slidesNav.bottom { 
 	bottom: 100px;
 }
-#fp-nav ul li a, .fp-slidesNav ul li a {
-	color: orange;
-}
 .nav_menus a {
 	color: black;	
 	font-size: 13px;
@@ -22,7 +19,10 @@ body {
 	background-color: white;
 }
 .nav li a:focus {
-	color: orange;	
+	background-color: white;
+}
+.active a {
+	color: orange;
 	background-color: white;
 }
 /*nav bar brand icon [] */

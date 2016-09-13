@@ -4,9 +4,18 @@ body {
 	font-family: 'lato', sans-serif;
 	/*font-family: 'Open Sans', sans-serif;*/
 }
+.fp-slidesNav.bottom { 
+	bottom: 100px;
+}
+#fp-nav ul li a, .fp-slidesNav ul li a {
+	color: orange;
+}
 .nav_menus a {
 	color: black;	
 	font-size: 13px;
+}
+.nav li a {
+	padding: 2px;
 }
 .nav li a:hover {
 	color: orange;	
@@ -38,7 +47,6 @@ body {
 #landing_title h1 {
 	text-align: center;
 	font-size: 45px;
-	/*margin-top: 280px;*/
 }
 #title_icon {
 	color: orange;
@@ -64,12 +72,13 @@ body {
 	display: inline-block;
 	font-size: 12px;
 }
-#project_section {
-	margin-top: 100px;
+.page_titles {
+	color: orange;
 }
-#landing_title {
-	margin-bottom: 150px;
-}
+.about_titles {
+		margin-left: 11%;
+		color: orange;
+	}
 .project_links {
 	width: 200px;
 	display: inline-block;
@@ -86,7 +95,6 @@ body {
 }
 #project_section ul li {
 	list-style: none;
-	margin-top: 30px;
 }
 #project_section ul li a {
 	color: black;
@@ -109,9 +117,7 @@ body {
 #project_section ul li p a:hover {
 	font-size: 12px;
 }
-#about_section {
-	margin-top: 150px;
-}
+
 #orange_hello {
 	color: orange;
 	font-size: 30px;
@@ -120,12 +126,13 @@ body {
 	text-align: center;
 }
 #say_hello {
+	margin-left: 2%;
 	display: none;
 }
 #say_hello2 {
 	color: orange;
 	display: inline-block;
-	margin-left: 7%;
+	margin-left: 10%;
 }
 #about_me {
 	margin-left: 11%;
@@ -135,7 +142,6 @@ body {
 	color: grey;
 }
 #contacts ul {
-	margin-top: 40px;
 	width: 300px;
 	margin-left: 25%;
 }
@@ -162,9 +168,8 @@ body {
 #copyright {
 	font-size: 10px;
 	margin-left: 8%;
+	margin-top: 30px;
 	width: 340px;
-	margin-top: 100px;
-	padding-bottom: 10px;
 	color: grey;
 }
 
@@ -190,7 +195,6 @@ body {
 	/*Landing page heading*/
 	#landing_title h1 {
 		font-size: 75px;
-		margin-top: 350px;
 	}
 	#title_icon {
 		font-size: 90px;
@@ -212,6 +216,16 @@ body {
 	.array_section {
 		font-size: 16px;
 	}
+	.about_titles {
+		margin-left: 25%;
+		color: orange;
+		font-size: 25px;
+	}
+	.page_titles {
+		text-align: left;
+		margin-left: 10%;
+		font-size: 25px;
+	}
 	.project_links {
 		width: 180px;
 		display: inline-block;
@@ -229,7 +243,7 @@ body {
 		width: 540px;
 	}
 	#project_section ul li {
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 	}
 	#project_section ul li a {
 		font-size: 20px;
@@ -267,7 +281,7 @@ body {
 		font-size: 14px;
 	}
 	#contacts ul {
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 		width: 600px;
 		margin-left: 20%;
 	}
@@ -279,9 +293,8 @@ body {
 	}
 	#copyright {
 		font-size: 12px;
-		margin-left: 25%;
-		margin-top: 300px;
-		padding-bottom: 15px;
+		margin-left: 30%;
+		margin-top: 50px;
 		width: 600px;
 	}
 }
@@ -307,6 +320,10 @@ body {
 	}
 	.array_section {
 		font-size: 17px;
+	}
+	.page_titles {
+		text-align: left;
+		margin-left: 17%;
 	}
 	.project_links {
 		width: 200px;

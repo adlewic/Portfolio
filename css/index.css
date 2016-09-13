@@ -57,7 +57,7 @@ body {
 /*equal sign project section */
 .orange_section {
 	display: inline-block;
-	width: 20%;
+	width: 33%;
 	visibility: hidden;
 }
 .array_section {
@@ -107,7 +107,7 @@ body {
 	color: grey;
 }
 #project_section ul li p a:hover {
-	font-size: 13px;
+	font-size: 12px;
 }
 #about_section {
 	margin-top: 150px;
@@ -150,11 +150,11 @@ body {
 }
 #contacts ul li a:hover{
 	color: orange;
-	font-size: 17px;
+	font-size: 16px;
 }
 #contacts ul li a:active{
 	color: orange;
-	font-size: 16px;
+	font-size: 15px;
 }
 .orange_list {
 	color: orange;
@@ -162,7 +162,7 @@ body {
 #copyright {
 	font-size: 10px;
 	margin-left: 8%;
-	width: 350px;
+	width: 340px;
 	margin-top: 100px;
 	padding-bottom: 10px;
 	color: grey;
@@ -213,18 +213,18 @@ body {
 		font-size: 16px;
 	}
 	.project_links {
-		width: 200px;
+		width: 180px;
 		display: inline-block;
-		margin-left: 15%;
+		margin-left: 10%;
 	}
 	.project_description {
 		font-size: 13px;
-		margin-left: 15%;
+		margin-left: 10%;
 		margin-top: 0px;
 	}
 	.detail_description {
 		font-size: 14px;
-		margin-left: 17%;
+		margin-left: 13%;
 		margin-top: 0px;
 		width: 540px;
 	}
@@ -279,7 +279,7 @@ body {
 	}
 	#copyright {
 		font-size: 12px;
-		margin-left: 27%;
+		margin-left: 25%;
 		margin-top: 300px;
 		padding-bottom: 15px;
 		width: 600px;
@@ -310,13 +310,13 @@ body {
 	}
 	.project_links {
 		width: 200px;
-		margin-left: 20%;
+		margin-left: 17%;
 	}
 	.project_description {
-		margin-left: 20%;
+		margin-left: 17%;
 	}
 	.detail_description {
-		margin-left: 22%;
+		margin-left: 19%;
 		width: 650px;
 	}
 	#about_me {
@@ -333,7 +333,7 @@ body {
 		font-size: 18px;
 	}
 	#contacts ul li a:hover{
-		font-size: 19px;
+		font-size: 18px;
 	}
 	#contacts ul li a:active{
 		font-size: 17px;

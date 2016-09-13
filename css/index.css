@@ -7,7 +7,7 @@ body {
 	/*font-family: 'Open Sans', sans-serif;*/
 }
 
-@media (min-width: 374px) {
+@media (min-width: 374px) and (max-width: 667px) {
 	.nav_menus a {
 		color: black;	
 		font-size: 13px;
@@ -60,11 +60,14 @@ body {
 	}
 	/*equal sign project section */
 	.orange_section {
-		display: none;
+		display: inline-block;
+		width: 37%;
+		visibility: hidden;
 	}
 	.array_section {
 		display: inline-block;
 		font-size: 13px;
+		margin-top: 5px;
 	}
 	#project_section {
 		margin-top: 300px;
@@ -74,13 +77,14 @@ body {
 		display: inline-block;
 	}
 	.project_description {
-		font-size: 12px;
-		margin-left: 15%;
+		font-size: 11px;
+		margin-top: 5px;
 	}
 	.detail_description {
 		font-size: 12px;
-		margin-left: 17%;
-		width: 540px;
+		margin-top: 5px;
+		margin-left: 2%;
+		width: 310px;
 	}
 	#project_section ul li {
 		list-style: none;
@@ -192,6 +196,7 @@ body {
 	}
 	/*equal sign project section */
 	.orange_section {
+		visibility: visible;
 		color: orange;
 		font-size: 25px;
 		display: inline-block;
@@ -213,10 +218,12 @@ body {
 	.project_description {
 		font-size: 12px;
 		margin-left: 15%;
+		margin-top: 0px;
 	}
 	.detail_description {
 		font-size: 12px;
 		margin-left: 17%;
+		margin-top: 0px;
 		width: 540px;
 	}
 	#project_section ul li {

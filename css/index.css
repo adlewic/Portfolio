@@ -1,169 +1,162 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
 body {
 	font-family: 'lato', sans-serif;
 	/*font-family: 'Open Sans', sans-serif;*/
 }
-
-@media (min-width: 374px) and (max-width: 667px) {
-	.nav_menus a {
-		color: black;	
-		font-size: 13px;
-	}
-	.nav li a:hover {
-		color: orange;	
-		background-color: white;
-	}
-	.nav li a:focus {
-		color: orange;	
-		background-color: white;
-	}
-	/*nav bar brand icon [] */
-	#brand_icon {
-		color: orange;
-		font-size: 25px;
-	}
-	/*nav bar brand section */
-	.navbar-default .navbar-brand {
-		font-size: 18px;
-		color: black;
-	}
-	.navbar-default .navbar-brand:hover {
-		color: orange;
-	}
-	/*navbar container*/
-	.navbar-default {
-		background-color: white;
-		border: none;
-	}
-	/*Landing page heading*/
-	#landing_title h1 {
-		text-align: center;
-		font-size: 45px;
-		margin-top: 280px;
-	}
-	#title_icon {
-		color: orange;
-		font-size: 50px;
-	}
-	#landing_title p {
-		text-align: center;
-		font-size: 20px;
-		color: orange;
-		margin-left: 160px;
-	}
-	/*arry color secion2*/
-	.array_color {
-		color: orange;
-	}
-	/*equal sign project section */
-	.orange_section {
-		display: inline-block;
-		width: 37%;
-		visibility: hidden;
-	}
-	.array_section {
-		display: inline-block;
-		font-size: 13px;
-		margin-top: 5px;
-	}
-	#project_section {
-		margin-top: 300px;
-	}
-	.project_links {
-		width: 200px;
-		display: inline-block;
-	}
-	.project_description {
-		font-size: 11px;
-		margin-top: 5px;
-	}
-	.detail_description {
-		font-size: 12px;
-		margin-top: 5px;
-		margin-left: 2%;
-		width: 310px;
-	}
-	#project_section ul li {
-		list-style: none;
-		margin-top: 50px;
-	}
-
-	#project_section ul li a {
-		color: grey;
-		font-size: 20px;
-		text-decoration: underline;
-	}
-	#project_section ul li a:hover {
-		color: orange;
-		font-size: 21px;
-		text-decoration: underline;
-	}
-	#project_section ul li a:active {
-		font-size: 20px;
-		text-decoration: underline;
-	}
-
-	#about_section {
-		margin-top: 300px;
-	}
-	#orange_hello {
-		color: orange;
-		font-size: 30px;
-		display: inline-block;
-		width: 80px;
-		text-align: center;
-	}
-	#say_hello {
-		display: inline-block;
-		margin-left: 25%;
-	}
-	#say_hello2 {
-		color: orange;
-		display: inline-block;
-	}
-	#about_me {
-		margin-left: 25%;
-		margin-top: 30px;
-		width: 440px;
-	}
-	#contacts ul {
-		margin-top: 50px;
-		width: 600px;
-		margin-left: 20%;
-	}
-	#contacts ul li{
-		list-style: none;
-		display: inline-block;
-		margin-right: 13%;
-		margin-left: 1%;
-	}
-	#contacts ul li a{
-		color: grey;
-		font-size: 16px;
-	}
-	#contacts ul li a:hover{
-		color: orange;
-		font-size: 17px;
-	}
-	#contacts ul li a:active{
-		color: orange;
-		font-size: 16px;
-	}
-	.orange_list {
-		color: orange;
-	}
-	#copyright {
-		font-size: 12px;
-		margin-left: 27%;
-		margin-top: 300px;
-		padding-bottom: 15px;
-	}
+.nav_menus a {
+	color: black;	
+	font-size: 13px;
+}
+.nav li a:hover {
+	color: orange;	
+	background-color: white;
+}
+.nav li a:focus {
+	color: orange;	
+	background-color: white;
+}
+/*nav bar brand icon [] */
+#brand_icon {
+	color: orange;
+	font-size: 25px;
+}
+/*nav bar brand section */
+.navbar-default .navbar-brand {
+	font-size: 18px;
+	color: black;
+}
+.navbar-default .navbar-brand:hover {
+	color: orange;
+}
+/*navbar container*/
+.navbar-default {
+	background-color: white;
+	border: none;
+}
+/*Landing page heading*/
+#landing_title h1 {
+	text-align: center;
+	font-size: 45px;
+	margin-top: 280px;
+}
+#title_icon {
+	color: orange;
+	font-size: 50px;
+}
+#landing_title p {
+	text-align: center;
+	font-size: 20px;
+	color: orange;
+	margin-left: 160px;
+}
+/*arry color secion2*/
+.array_color {
+	color: orange;
+}
+/*equal sign project section */
+.orange_section {
+	display: inline-block;
+	width: 20%;
+	visibility: hidden;
+}
+.array_section {
+	display: inline-block;
+	font-size: 12px;
+}
+#project_section {
+	margin-top: 300px;
+}
+.project_links {
+	width: 200px;
+	display: inline-block;
+}
+.project_description {
+	font-size: 11px;
+}
+.detail_description {
+	font-size: 10px;
+	margin-left: 2%;
+	width: 290px;
+}
+#project_section ul li {
+	list-style: none;
+	margin-top: 30px;
 }
 
-/* Medium devices (desktops, 992px and up) */
+#project_section ul li a {
+	color: grey;
+	font-size: 18px;
+	text-decoration: underline;
+}
+#project_section ul li a:hover {
+	color: orange;
+	font-size: 19px;
+	text-decoration: underline;
+}
+#project_section ul li a:active {
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+#about_section {
+	margin-top: 300px;
+}
+#orange_hello {
+	color: orange;
+	font-size: 30px;
+	display: none;
+	width: 30px;
+	text-align: center;
+}
+#say_hello {
+	display: none;
+}
+
+#say_hello2 {
+	color: orange;
+	display: inline-block;
+	margin-left: 15%;
+}
+#about_me {
+	margin-left: 16%;
+	margin-top: 10px;
+	width: 260px;
+	font-size: 12px;
+}
+#contacts ul {
+	margin-top: 40px;
+	width: 300px;
+	margin-left: 25%;
+}
+#contacts ul li{
+	list-style: none;
+	display: block;
+	margin-top: 10px;
+}
+#contacts ul li a{
+	color: grey;
+	font-size: 16px;
+}
+#contacts ul li a:hover{
+	color: orange;
+	font-size: 17px;
+}
+#contacts ul li a:active{
+	color: orange;
+	font-size: 16px;
+}
+.orange_list {
+	color: orange;
+}
+#copyright {
+	font-size: 10px;
+	margin-left: 10%;
+	width: 350px;
+	margin-top: 100px;
+	padding-bottom: 10px;
+}
+/* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	.nav_menus a {
 		font-size: 18px;
@@ -227,34 +220,25 @@ body {
 		width: 540px;
 	}
 	#project_section ul li {
-		list-style: none;
 		margin-top: 50px;
 	}
 
 	#project_section ul li a {
-		color: grey;
 		font-size: 20px;
-		text-decoration: underline;
 	}
 	#project_section ul li a:hover {
-		color: orange;
 		font-size: 21px;
-		text-decoration: underline;
 	}
 	#project_section ul li a:active {
 		font-size: 20px;
-		text-decoration: underline;
 	}
 
 	#about_section {
 		margin-top: 300px;
 	}
 	#orange_hello {
-		color: orange;
-		font-size: 30px;
-		display: inline-block;
 		width: 80px;
-		text-align: center;
+		display: inline-block;
 	}
 	#say_hello {
 		display: inline-block;
@@ -263,11 +247,13 @@ body {
 	#say_hello2 {
 		color: orange;
 		display: inline-block;
+		margin-left: 0px;
 	}
 	#about_me {
 		margin-left: 25%;
 		margin-top: 30px;
 		width: 440px;
+		font-size: 14px;
 	}
 	#contacts ul {
 		margin-top: 50px;
@@ -280,21 +266,6 @@ body {
 		margin-right: 13%;
 		margin-left: 1%;
 	}
-	#contacts ul li a{
-		color: grey;
-		font-size: 16px;
-	}
-	#contacts ul li a:hover{
-		color: orange;
-		font-size: 17px;
-	}
-	#contacts ul li a:active{
-		color: orange;
-		font-size: 16px;
-	}
-	.orange_list {
-		color: orange;
-	}
 	#copyright {
 		font-size: 12px;
 		margin-left: 27%;
@@ -302,8 +273,7 @@ body {
 		padding-bottom: 15px;
 	}
 }
-
-/* Large devices (large desktops, 1200px and up) */
+/* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	ul {
 		margin-top: 20px;
@@ -340,13 +310,6 @@ body {
 		margin-left: 22%;
 		width: 650px;
 	}
-	#orange_hello {
-		color: orange;
-		font-size: 30px;
-		display: inline-block;
-		width: 80px;
-		text-align: center;
-	}
 	#about_me {
 		width: 600px;
 	}
@@ -367,5 +330,7 @@ body {
 		font-size: 17px;
 	}
 }
-
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
 

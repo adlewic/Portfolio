@@ -65,7 +65,10 @@ body {
 	font-size: 12px;
 }
 #project_section {
-	margin-top: 300px;
+	margin-top: 100px;
+}
+#landing_title {
+	margin-bottom: 150px;
 }
 .project_links {
 	width: 200px;
@@ -98,9 +101,8 @@ body {
 	font-size: 18px;
 	text-decoration: underline;
 }
-
 #about_section {
-	margin-top: 300px;
+	margin-top: 150px;
 }
 #orange_hello {
 	color: orange;
@@ -199,11 +201,8 @@ body {
 	.array_section {
 		font-size: 16px;
 	}
-	#project_section {
-		margin-top: 300px;
-	}
 	.project_links {
-		width: 180px;
+		width: 200px;
 		display: inline-block;
 		margin-left: 15%;
 	}
@@ -230,10 +229,6 @@ body {
 	}
 	#project_section ul li a:active {
 		font-size: 20px;
-	}
-
-	#about_section {
-		margin-top: 300px;
 	}
 	#orange_hello {
 		width: 80px;

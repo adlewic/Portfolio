@@ -1,5 +1,7 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
+@media (max-height: 568px) {
+}
 body {
 	font-family: 'lato', sans-serif;
 	/*font-family: 'Open Sans', sans-serif;*/

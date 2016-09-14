@@ -138,10 +138,13 @@ body {
 }
 #about_me {
 	margin-left: 11%;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	width: 290px;
-	font-size: 13px;
+	font-size: 12px;
 	color: grey;
+}
+.about_titles {
+	font-size: 23px;
 }
 #contacts ul {
 	width: 300px;

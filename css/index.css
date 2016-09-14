@@ -139,9 +139,10 @@ body {
 #about_me {
 	margin-left: 11%;
 	/*margin-top: 10px;*/
-	width: 290px;
-	font-size: 12px;
+	width: 320px;
+	font-size: 13px;
 	color: grey;
+	/*padding: 0px;*/
 }
 .about_titles {
 	font-size: 23px;

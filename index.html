@@ -2,6 +2,7 @@
 <html>
 	<head>
 	  <!-- Latest compiled and minified CSS -->
+	 <meta charset="utf-8">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -10,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="fullpageJS/jquery.fullPage.css">
 	<script type="text/javascript" src="fullpageJS/jquery.fullPage.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/index.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>James Hwang</title>
@@ -26,15 +28,16 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" data-menuachor="homee" href="#homee"> <span id="brand_icon">[ ]</span> James Hwang </a>
+	      <a class="navbar-brand" data-menuachor="homee" href="#homee"> 
+	      	<span id="brand_icon">[ ]</span> James Hwang </a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-right nav_menus" id="nav_active_menus">
-	        <li class="nav_menus" data-menuanchor="projectss"><a href="#projectss">Projects</a></li>
-	        <li class="nav_menus" data-menuanchor="aboutt"><a href="#aboutt">About</a></li>
-	        <li class="nav_menus" data-menuanchor="contactss"><a href="#contactss">Contacts</a></li>
+	      <ul class="nav nav_menus" id="nav_active_menus">
+	        <li class="nav_menus" data-menuanchor="projectss"><a class="home_links" href="#projectss">Projects</a></li>
+	        <li class="nav_menus" data-menuanchor="aboutt"><a class="home_links" href="#aboutt">About</a></li>
+	        <li class="nav_menus" data-menuanchor="contactss"><a class="home_links" href="#contactss">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 
@@ -45,8 +48,11 @@
 	<div class="container section" id="home">
 		<div class="row">
 			<div class="col-md-12 col-xs-12" id="landing_title">
-				<h1><span id="title_icon">[ ]</span> James Hwang </h1>
-				<p>Junior Developer</p>
+				<h1>
+					<span id="title_icon">[ ]</span> 
+					James Hwang
+				</h1>
+				<div id="title">Web Developer</div>
 			</div>
 		</div>
 	</div>
@@ -57,34 +63,13 @@
 				<ul>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
-							<div class="project_links">
-								<a href="https://github.com/91juhwang/Simple-MEAN-Blog" target="_blank">Simple MEAN Blog</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> MongoDB <span class="array_color">"</span>,
-								<span class="array_color">"</span> ExpressJS <span class="array_color">"</span>,
-								<span class="array_color">"</span> AngularJS <span class="array_color">"</span>,
-								<span class="array_color">"</span> NodeJS <span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>PERSONAL PROJECT / ON PROGRESS</p>
-							</div>
-							<div class="detail_description">
-								<p>
-								- Building out a Hacker News/Reddit clone while learning a new tech stack<br>
-								- Developed CRUD actions using RESTful routes in the MVC structure using MEAN stack<br>
-								- Currently in the process of developing user authentication and deployments<br>
-								- Github link: <a href="https://github.com/91juhwang/Simple-MEAN-Blog">github.com/91juhwang/simple-mean-blog</a></p>
-							</div>
+							<!-- <h3 class="page_titles">Projects</h3> -->
+							
 						</div> <!-- slide div cancle !-->
 					</li>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
+							<!-- <h3 class="page_titles">Projects</h3> -->
 							<div class="project_links">
 								<a href="http://www.happy-thought.com" target="_blank">Happy-Thoughts</a> 
 							</div>
@@ -92,11 +77,11 @@
 							=
 							</div>
 							<div class="array_section">
-								<span class="array_color">[ "</span> Javascript <span class="array_color">"</span>,
-								<span class="array_color">"</span> RoR <span class="array_color">"</span>,
-								<span class="array_color">"</span> D3 <span class="array_color">"</span>,
-								<span class="array_color">"</span> UJS <span class="array_color">"</span>,
-								<span class="array_color">"</span> API integration <span class="array_color">" ]</span>
+								<span class="array_color">[ "</span><span class="array_text"> Javascript </span><span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text"> RoR </span> <span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">D3 </span> <span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">UJS </span> <span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">API integration</span> <span class="array_color">" ]</span>
 							</div><br>
 							<div class="project_description">
 								<p>GROUP PROJECT / BACKEND-DEVELOPER</p>
@@ -112,7 +97,7 @@
 					</li>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
+							<!-- <h3 class="page_titles">Projects</h3> -->
 							<div class="project_links">
 								<a href="https://youtu.be/qy2O-fnjitk?list=PLyApqETqziQbC3Pl83E_mnSzgybfW1kHr" target="_blank">League-Lytics</a> 
 							</div>
@@ -120,9 +105,9 @@
 							=
 							</div>
 							<div class="array_section">
-								<span class="array_color">[ "</span> Javascript <span class="array_color">"</span>,
-								<span class="array_color">"</span> Ruby_on_Rails <span class="array_color">"</span>,
-								<span class="array_color">"</span> API Integration <span class="array_color">" ]</span>
+								<span class="array_color">[ "</span> <span class="array_text">Javascript </span><span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">Ruby_on_Rails </span> <span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">API Integration </span><span class="array_color">" ]</span>
 							</div><br>
 							<div class="project_description">
 								<p>PERSONAL PROJECT</p>
@@ -136,7 +121,7 @@
 					</li>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
+							<!-- <h3 class="page_titles">Projects</h3> -->
 							<div class="project_links">
 								<a href="https://91juhwang.github.io/JukeBox-" target="_blank">Javascript Juke-Box</a> 
 							</div>
@@ -144,9 +129,9 @@
 							=
 							</div>
 							<div class="array_section">
-								<span class="array_color">[ "</span> Object_Oriented_Javascript <span class="array_color">"</span>,
-								<span class="array_color">"</span> HTML5 <span class="array_color">"</span>,
-								<span class="array_color">"</span> CSS <span class="array_color">" ]</span>
+								<span class="array_color">[ "</span> <span class="array_text">Object_Oriented_Javascript </span><span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">HTML5 </span><span class="array_color">"</span>,
+								<span class="array_color">"</span> <span class="array_text">CSS </span><span class="array_color">" ]</span>
 							</div><br>
 							<div class="project_description">
 								<p>PERSONAL PROJECT</p>
@@ -165,47 +150,52 @@
 	<div class="container-fluid section" id="about">
 		<div class="row">
 			<div class="col-md-12 col-xs-12" id="about_section">
-				<h3 class="about_titles">About Me</h3>
-				<div id="about_me">
-					<p>Hi! My name is James Hwang, and I am a web-developer residing in New York.</p>
 
-					<p>I was first amazed by the power of technology, then inspired by the infinite possibilities of programming. My life became so much more fulfilled after learning to program because I felt that I finally found something that I enjoy.</p>
-
-					<p>I am a graduate of web-development intensive at New York Code + Design Academy. I have a B.A. in economics and previously worked at a digital agency, where I gained professional experience as a strategy/product planner. I worked as a consultant at a Korean government agency, and helped Korean businesses and job-seekers to succeed in U.S. markets. Because of my diverse background, I am able to understand both the planning and the development sides of the business. I am devoted to grow and continue to learn, so I could contribute to the great ideas and visions. </p>
-
-					<p>I am an outgoing, positive person who loves to spend time with my friends. I love traveling, bowling, playing ping-pong, eating, camping, skiing, gaming, learning, and many more fun things in life. </p>
-
-					<p>I am always interested in fun projects, so please shoot me an email to say hello! </p>
+				<div id="left_sign" class="signs">
+						/*			
 				</div>
+
+				<div id="about_me">
+					<p>
+						Hi! My name is James Hwang, and I am a web-developer residing in New York.
+					</p>	
+					<p>
+						I am a graduate of Web-development intensive at New York Code + Design Academy.
+						I was first amazed by the power of technology, then inspired by the infinite possibilities of programming. My life became so much more fulfilled after learning to program because I felt that I finally found something that I enjoy.
+					</p>
+					<p>
+						I have a B.A. in economics and previously worked at a digital agency, where I gained professional experience as a strategy/product planner. I worked as a consultant at a Korean government agency, and helped Korean businesses and job-seekers to succeed in U.S. markets.
+						Because of my diverse background, I am able to understand both the planning and the development sides of the business. I am devoted to grow and continue to learn, so I could contribute to the great ideas and visions.
+					</p>
+					<p>	
+						I am an outgoing, positive person who loves to spend time with my friends. I love traveling, bowling, playing ping-pong, eating, camping, skiing, gaming, learning, and many more fun things in life.
+						I am always interested in fun projects, so please shoot me an email to say hello! 
+					</p>
+				</div>
+
+				<div class="signs">
+						/*			
+				</div>
+
 			</div>
 		</div>
 	</div>
 
 	<div class="section" id="contacts">
-			<div id="say_hello">
-				<h2>SAY HELLO</h2> 
+		<div id="contact">	
+			<div id="email">
+				<span id="say_hello">SAY HELLO </span>
+				<span id="equal">=</span>
+				<span id="hello"><a href="#">hello.junsuk@gmail.com</a></span>
 			</div>
-			<div id="orange_hello">
-				=  
+			<div>
+				<span class="color">[</span>RESUME<span class="color">]</span>
+
 			</div>
-			<div id="say_hello2">
-				<h2><a href="mailto:hello.junsuk@gmail.com?Subject=to JunSuk" target="_top">hello.junsuk@gmail.com</a></h2>
+			<div>	
+				Copyright © by James Hwang -Developer- & Imelda Alonso -Designer-,NYC 2016.
 			</div>
-			<ul>
-				<li>
-					<a href="Hwang_James_Resume.pdf" target="_blank">
-					<span class="orange_list">[ </span> RESUME <span class="orange_list"> ] </span></a>
-				</li>
-				<li>
-					<a href="http://www.linkedin.com/in/91juhwang" target="_blank">
-					<span class="orange_list">[ </span> LINKEDIN <span class="orange_list"> ] </span></a>
-				</li>
-				<li>
-					<a href="http://www.github.com/91juhwang" target="_blank">
-					<span class="orange_list">[ </span> GITHUB <span class="orange_list"> ] </span> </a>
-				</li>
-			</ul>
-			<p id="copyright">Copyright(&copy) by James Hwang(Developer) & Imelda Alonso(Designer), 2016</p>
+		</div>
 	</div>
 </div> <!-- fullpage div ends !--> 
 

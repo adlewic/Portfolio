@@ -10,6 +10,8 @@
 	<link rel="stylesheet" type="text/css" href="fullpageJS/jquery.fullPage.css">
 	<script type="text/javascript" src="fullpageJS/jquery.fullPage.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/index.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/ico" href="favicon.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>James Hwang</title>
@@ -26,15 +28,16 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" data-menuachor="homee" href="#homee"> <span id="brand_icon">[ ]</span> James Hwang </a>
+	      <a class="navbar-brand" data-menuachor="homee" href="#homee"> 
+	      	<span id="brand_icon">[ ]</span> James Hwang </a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-right nav_menus" id="nav_active_menus">
+	      <ul class="nav nav_menus" id="nav_active_menus">
 	        <li class="nav_menus" data-menuanchor="projectss"><a href="#projectss">Projects</a></li>
 	        <li class="nav_menus" data-menuanchor="aboutt"><a href="#aboutt">About</a></li>
-	        <li class="nav_menus" data-menuanchor="contactss"><a href="#contactss">Contacts</a></li>
+	        <li class="nav_menus" data-menuanchor="contactss"><a href="#contactss">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 
@@ -45,8 +48,11 @@
 	<div class="container section" id="home">
 		<div class="row">
 			<div class="col-md-12 col-xs-12" id="landing_title">
-				<h1><span id="title_icon">[ ]</span> James Hwang </h1>
-				<p>Junior Developer</p>
+				<h1>
+					<span id="title_icon">[ ]</span> 
+					James Hwang
+				</h1>
+				<div id="title">Web Developer</div>
 			</div>
 		</div>
 	</div>
@@ -57,104 +63,127 @@
 				<ul>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
-							<div class="project_links">
-								<a href="https://github.com/91juhwang/Simple-MEAN-Blog" target="_blank">Simple MEAN Blog</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> MongoDB <span class="array_color">"</span>,
-								<span class="array_color">"</span> ExpressJS <span class="array_color">"</span>,
-								<span class="array_color">"</span> AngularJS <span class="array_color">"</span>,
-								<span class="array_color">"</span> NodeJS <span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>PERSONAL PROJECT / ON PROGRESS</p>
-							</div>
-							<div class="detail_description">
-								<p>
-								- Building out a Hacker News/Reddit clone while learning a new tech stack<br>
-								- Developed CRUD actions using RESTful routes in the MVC structure using MEAN stack<br>
-								- Currently in the process of developing user authentication and deployments<br>
-								- Github link: <a href="https://github.com/91juhwang/Simple-MEAN-Blog">github.com/91juhwang/simple-mean-blog</a></p>
-							</div>
-						</div> <!-- slide div cancle !-->
+							<div class="project">
+								<div class="div_titles">
+									<h4>Simple MEAN Blog </h4>
+									<h5>Personal project/ on progress</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												MongoDB 
+										<span class="color">", " </span>	
+												ExpressJS
+										<span class="color">", " </span>
+												 AngularJS
+										<span class="color"> ", "</span>
+												  NodeJS
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Building out a Hacker News/Reddit clone while learning a new tech stack<br>
+										- Developed CRUD actions using RESTful routes in the MVC structure using MEAN stack<br>
+										- Currently in the process of developing user authentication and deployments<br>
+										- Github link: <a class="project_link" href="#">github.com/91juhwang/simple-mean-blog</a>
+									</div>
+								</div>
+							</div> <!-- end div project-->
+						</div> <!-- end section !-->
 					</li>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
-							<div class="project_links">
-								<a href="http://www.happy-thought.com" target="_blank">Happy-Thoughts</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> Javascript <span class="array_color">"</span>,
-								<span class="array_color">"</span> RoR <span class="array_color">"</span>,
-								<span class="array_color">"</span> D3 <span class="array_color">"</span>,
-								<span class="array_color">"</span> UJS <span class="array_color">"</span>,
-								<span class="array_color">"</span> API integration <span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>GROUP PROJECT / BACKEND-DEVELOPER</p>
-							</div>
-							<div class="detail_description">
-								<p>- Keeps a person's record of positive thoughts through daily posts and visualization of most used words. <br>
-								- Developed CRUD actions using RESTful routes in the MVC structure<br>
-								- Won first place out of 7 groups <br>
-								- Interview link: <a id="happy_thoughts" href="https://nycda.com/blog/happy-thoughts">nycda.com/blog/happy-thoughts</a><br>
-								- Github link: <a href="https://github.com/91juhwang/HappyThoughts">github.com/91juhwang/HappyThoughts</a></p>
-							</div>
+							<div class="project">
+								<div class="div_titles">
+									<h4>Happy Thoughts</h4>
+									<h5>BACK-END DEVELOPER</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												Javascript 
+										<span class="color">", " </span>	
+												ROR
+										<span class="color">", " </span>
+												D3
+										<span class="color"> ", "</span>
+												 UJS
+										<span class="color"> ", "</span>
+												API Integration
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Keeps a person's record of positive thoughts through daily posts and visualization of most used words <br>
+										- Wrote methods to create a JSON dataset to draw a pie chart using D3 library <br>
+										- Developed CRUD actions using RESTful routes in the MVC structure<br>
+										- Won first place out of 7 groups <br>
+										- Interview link: <a class="project_link" href="#">nycda.com/blog/happy-thoughts</a>  <br>
+										- Github link: <a class="project_link" href="#"> github.com/91juhwang/HappyThoughts</a><br>
+									</div>
+								</div>
+							</div> <!-- end div project-->
+							
 						</div>
 					</li>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
-							<div class="project_links">
-								<a href="https://youtu.be/qy2O-fnjitk?list=PLyApqETqziQbC3Pl83E_mnSzgybfW1kHr" target="_blank">League-Lytics</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> Javascript <span class="array_color">"</span>,
-								<span class="array_color">"</span> Ruby_on_Rails <span class="array_color">"</span>,
-								<span class="array_color">"</span> API Integration <span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>PERSONAL PROJECT</p>
-							</div>
-							<div class="detail_description">
-								<p>- Personalized app that provides visual dashboards and in-game improvement suggestions for League of Legends players<br>
-								- Analyzed and visualized insightful statistics by requesting Riot's APIs and normalizing their JSON data<br>
-								- Github link: <a href="https://github.com/91juhwang/LeagueLytics">github.com/91juhwang/LeagueLytics</a></p>
-							</div>
+							<div class="project">
+								<div class="div_titles">
+									<h4>League-Lytics</h4>
+									<h5>personal project</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												Javascript 
+										<span class="color">", " </span>	
+												RubyonRails
+										<span class="color">", " </span>
+												API Integration				
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Keeps a person's record of positive thoughts through daily posts and visualization of most used words <br>
+										- Wrote methods to create a JSON dataset to draw a pie chart using D3 library <br>
+										- Developed CRUD actions using RESTful routes in the MVC structure<br>
+										- Won first place out of 7 groups <br>
+										- Interview link: <a class="project_link" href="#"> nycda.com/blog/happy-thoughts</a> <br>
+										- Github link: <a class="project_link" href="#">github.com/91juhwang/HappyThoughts</a> <br>
+									</div>
+								</div>
+							</div> <!-- end div project-->
 						</div>
 					</li>
 					<li>
 						<div class="slide">
-							<h3 class="page_titles">Projects</h3>
-							<div class="project_links">
-								<a href="https://91juhwang.github.io/JukeBox-" target="_blank">Javascript Juke-Box</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> Object_Oriented_Javascript <span class="array_color">"</span>,
-								<span class="array_color">"</span> HTML5 <span class="array_color">"</span>,
-								<span class="array_color">"</span> CSS <span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>PERSONAL PROJECT</p>
-							</div>
-							<div class="detail_description">
-								<p>- Used object-oriented Javascript to control events such as play, pause, shuffle, and play next or previous song<br>
-								- Github link: <a href="https://github.com/91juhwang/JukeBox-">github.com/91juhwang/JukeBox-</a></p>
-							</div>
+							<div class="project">
+								<div class="div_titles">
+									<h4>Javascript Juke-Box</h4>
+									<h5>personal project</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												Object_Oriented_Javascript
+										<span class="color">", " </span>	
+												HTML5
+										<span class="color">", " </span>
+												CSS			
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Keeps a person's record of positive thoughts through daily posts and visualization of most used words <br>
+										- Wrote methods to create a JSON dataset to draw a pie chart using D3 library <br>
+										- Developed CRUD actions using RESTful routes in the MVC structure<br>
+										- Won first place out of 7 groups <br>
+										- Interview link: <a class="project_link" href="#">nycda.com/blog/happy-thoughts </a><br>
+										- Github link: <a class="project_link" href="#">github.com/91juhwang/HappyThoughts </a><br>
+									</div>
+								</div>
+							</div> <!-- end div project-->
 						</div>
 					</li>
 				</ul>
@@ -165,47 +194,54 @@
 	<div class="container-fluid section" id="about">
 		<div class="row">
 			<div class="col-md-12 col-xs-12" id="about_section">
-				<h3 class="about_titles">About Me</h3>
-				<div id="about_me">
-					<p>Hi! My name is James Hwang, and I am a web-developer residing in New York.</p>
 
-					<p>I was first amazed by the power of technology, then inspired by the infinite possibilities of programming. My life became so much more fulfilled after learning to program because I felt that I finally found something that I enjoy.</p>
-
-					<p>I am a graduate of web-development intensive at New York Code + Design Academy. I have a B.A. in economics and previously worked at a digital agency, where I gained professional experience as a strategy/product planner. I worked as a consultant at a Korean government agency, and helped Korean businesses and job-seekers to succeed in U.S. markets. Because of my diverse background, I am able to understand both the planning and the development sides of the business. I am devoted to grow and continue to learn, so I could contribute to the great ideas and visions. </p>
-
-					<p>I am an outgoing, positive person who loves to spend time with my friends. I love traveling, bowling, playing ping-pong, eating, camping, skiing, gaming, learning, and many more fun things in life. </p>
-
-					<p>I am always interested in fun projects, so please shoot me an email to say hello! </p>
+				<div id="left_sign" class="signs">
+						/*			
 				</div>
+
+				<div id="about_me">
+					<p>
+						Hi! My name is James Hwang, and I am a web-developer residing in New York.
+					</p>	
+					<p>
+						I am a graduate of Web-development intensive at New York Code + Design Academy.
+						I was first amazed by the power of technology, then inspired by the infinite possibilities of programming. My life became so much more fulfilled after learning to program because I felt that I finally found something that I enjoy.
+					</p>
+					<p>
+						I have a B.A. in economics and previously worked at a digital agency, where I gained professional experience as a strategy/product planner. I worked as a consultant at a Korean government agency, and helped Korean businesses and job-seekers to succeed in U.S. markets.
+						Because of my diverse background, I am able to understand both the planning and the development sides of the business. I am devoted to grow and continue to learn, so I could contribute to the great ideas and visions.
+					</p>
+					<p>	
+						I am an outgoing, positive person who loves to spend time with my friends. I love traveling, bowling, playing ping-pong, eating, camping, skiing, gaming, learning, and many more fun things in life.
+						I am always interested in fun projects, so please shoot me an email to say hello! 
+					</p>
+				</div>
+
+				<div class="signs">
+						/*			
+				</div>
+
 			</div>
 		</div>
 	</div>
 
 	<div class="section" id="contacts">
-			<div id="say_hello">
-				<h2>SAY HELLO</h2> 
+		<div id="contact">	
+			<div id="email">
+				<span id="say_hello">SAY HELLO </span>
+				<span id="equal">=</span>
+				<span id="hello"><a class="email_link" href="#">hello.junsuk@gmail.com</a></span>
 			</div>
-			<div id="orange_hello">
-				=  
+			<div id="social">
+				<li class="media"><span class="color">[</span><a class="media_link" href="#">RESUME</a><span class="color">]</span></li>
+				<li class="media"><span class="color">[</span><a class="media_link" href="#">LINKEDIN</a><span class="color">]</span></li>
+				<li class="media"><span class="color">[</span><a class="media_link" href="#">GITHUB</a><span class="color">]</span></li>
 			</div>
-			<div id="say_hello2">
-				<h2><a href="mailto:hello.junsuk@gmail.com?Subject=to JunSuk" target="_top">hello.junsuk@gmail.com</a></h2>
+
+			<div id="copy">	
+				Coded by  James Hwang  designed by Imelda Alonso, NYC 2016.
 			</div>
-			<ul>
-				<li>
-					<a href="Hwang_James_Resume.pdf" target="_blank">
-					<span class="orange_list">[ </span> RESUME <span class="orange_list"> ] </span></a>
-				</li>
-				<li>
-					<a href="http://www.linkedin.com/in/91juhwang" target="_blank">
-					<span class="orange_list">[ </span> LINKEDIN <span class="orange_list"> ] </span></a>
-				</li>
-				<li>
-					<a href="http://www.github.com/91juhwang" target="_blank">
-					<span class="orange_list">[ </span> GITHUB <span class="orange_list"> ] </span> </a>
-				</li>
-			</ul>
-			<p id="copyright">Copyright(&copy) by James Hwang(Developer) & Imelda Alonso(Designer), 2016</p>
+		</div>
 	</div>
 </div> <!-- fullpage div ends !--> 
 

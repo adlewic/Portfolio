@@ -1,10 +1,65 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-/*fonts */
-.slide{
+@
 
+
+#project_section ul li {
+	list-style: none;
 }
+
+.project_link{
+	color: #999;
+}
+
+.project_link:hover{
+	color: #f78f31;
+	text-decoration: none;
+}
+
+
+.media_link {
+	color: black;
+}
+
+.media_link:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+
+.email_link{
+	color: #f78f31;
+}
+
+.email_link:hover{
+	color: #ffc9a1;
+	text-decoration: none;
+}
+
+/*fonts */
+.project{
+	width: 90%;
+	margin-left: 20%;
+}
+
+.project h5{
+	text-transform: uppercase;
+}
+.div_titles{
+	width: 20%;
+	height: 100PX;
+	float: left;
+}
+
+.div_information{
+	float: left;
+	width: 70%;
+	padding-left: 30px;
+	border-left: 2px solid #f78f31;
+}
+
+
 
 @font-face {
     font-family: "AauxPro-Regular";
@@ -12,8 +67,6 @@
 }
 
 
-@media (max-height: 568px) {
-}
 body {
 	 font-family: "AauxPro-Regular";
 	/*font-family: 'Open Sans', sans-serif;*/
@@ -24,25 +77,29 @@ body {
 }
 .nav_menus a {
 	color: black;	
-	font-size: 13px;
 }
+
+.nav_menus a:hover {	
+	color: #f78f31;
+}
+
 .nav li a {
 	padding: 2px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 11pt;
+}
 
-}
-.nav li a:hover {
-	background-color: white;
-}
 .nav li a:focus {
 	background-color: white;
 }
-.active a {
-	color: #f78f31;
+
+.nav li a:hover {
 	background-color: white;
 }
+
+
+
 /*nav bar brand icon [] */
 #brand_icon {
 	color: #f78f31;
@@ -52,6 +109,7 @@ body {
 .navbar-default .navbar-brand {
 	font-size: 18px;
 	color: black;
+	background-color: 
 }
 .navbar-default .navbar-brand:hover {
 	color: #f78f31;
@@ -59,7 +117,6 @@ body {
 
 /*navbar container*/
 .navbar-default {
-
 	background-color: white;
 	border: none;
 }
@@ -67,7 +124,7 @@ body {
 #landing_title h1 {
 	text-align: center;
 	letter-spacing: 3px;
-	font-size: 45px;
+	font-size: 5.5em;
 }
 
 .nav_menus{
@@ -77,6 +134,7 @@ body {
 	text-align: left;
 	font-size: 10pt;
 	padding-top: 10px;
+	background-color: white;
 }
 
 div #title{
@@ -86,12 +144,12 @@ div #title{
 	margin-left: 25%;
 	text-align: right;
 	letter-spacing: 3px;
-	font-size: 12pt;
+	font-size: 1.3em;
 }
 
 #title_icon {
 	color: #f78f31;
-	font-size: 50px;
+	font-size: 1.3em;
 }
 #landing_title p {
 	text-align: center;
@@ -104,11 +162,7 @@ div #title{
 	color: #f78f31;
 }
 /*equal sign project section */
-.#f78f31_section {
-	display: inline-block;
-	width: 33%;
-	visibility: hidden;
-}
+
 
 
 .array_text{
@@ -129,7 +183,7 @@ div #title{
 	text-transform: uppercase;
 }
 
-.project_links {
+.project_links{
 	width: 200px;
 	display: inline-block;
 }
@@ -143,45 +197,6 @@ div #title{
 	margin-left: 2%;
 	color: grey;
 
-}
-
-
-#project_section ul li {
-	list-style: none;
-}
-#project_section ul li a {
-	color: black;
-	font-size: 18px;
-}
-#project_section ul li a:hover {
-	color: #f78f31;
-	text-decoration: underline;
-}
-#project_section ul li a:active {
-	font-size: 18px;
-	text-decoration: underline;
-}
-#project_section ul li p a {
-	font-size: 12px;
-	color: grey;
-}
-#project_section ul li p a:hover {
-
-}
-
-
-#f78f31_hello {
-	color: #f78f31;
-	font-size: 30px;
-	display: none;
-	width: 30px;
-	text-align: center;
-}
-
-#say_hello2 {
-	color: #f78f31;
-	display: inline-block;
-	margin-left: 10%;
 }
 
 #about_me {
@@ -219,21 +234,7 @@ div #title{
 	float: right;
 	margin-left: 20px;
 }
-#contacts ul li a{
-	color: black;
-	font-size: 16px;
-}
-#contacts ul li a:hover{
-	color: #f78f31;
 
-}
-#contacts ul li a:active{
-	color: #f78f31;
-	font-size: 15px;
-}
-.#f78f31_list {
-	color: #f78f31;
-}
 #copyright {
 	font-size: 10px;
 	margin-left: 8%;
@@ -242,210 +243,75 @@ div #title{
 	color: grey;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	.nav_menus a {
-		font-size: 18px;
-	}
-	/*nav bar brand icon [] */
-	#brand_icon {
-		font-size: 25px;
-	}
-
-	/*Landing page heading*/
-	#landing_title h1 {
-		font-size: 75px;
-	}
-	#title_icon {
-		font-size: 90px;
-	}
-	#landing_title p {
-		font-size: 30px;
-		margin-left: 305px;
-	}
-	/*equal sign project section */
-	.#f78f31_section {
-		visibility: visible;
-		color: #f78f31;
-		font-size: 25px;
-		display: inline-block;
-		width: 20px;
-		margin-right: 20px;
-		text-align: center;
-	}
-	.array_section {
-		font-size: 16px;
-		border-bottom: 1px solid #f78f31;
-		padding-bottom: 30px;
-	}
-
-	.page_titles {
-		text-align: left;
-		margin-left: 10%;
-		font-size: 25px;
-	}
-	.project_links {
-		width: 180px;
-		display: inline-block;
-		margin-left: 10%;
-		text-decoration: underline;
-
-	}
-	.project_description {
-		font-size: 13px;
-		margin-left: 10%;
-		
-	}
-	.detail_description {
-		font-size: 14px;
-		margin-left: 13%;
-		margin-top: 0px;
-		width: 540px;
-		color:#212121;
-	}
-
-
-
-	#project_section ul li {
-		/*margin-top: 50px;*/
-	}
-	#project_section ul li a {
-		font-size: 20px;
-	}
-	#project_section ul li a:hover {
-		/*font-size: 21px;*/
-	}
-	#project_section ul li a:active {
-		font-size: 20px;
-	}
-	#project_section ul li p a {
-		font-size: 14px;
-		color: grey;
-	}
-	#project_section ul li p a:hover {
-		
-	}
-	##f78f31_hello {
-		width: 80px;
-		display: inline-block;
-	}
-	#say_hello {
-		display: inline-block;
-		margin-left: 25%;
-	}
-	#say_hello2 {
-		color: #f78f31;
-		display: inline-block;
-		margin-left: 0px;
-	}
-
-
-
-	#contacts ul {
-		/*margin-top: 50px;*/
-		border: 1px solid black;
-		width: 600px;
-		padding-left: 10%;
-	}
-	#contacts ul li{
-		list-style: none;
-		display: inline;
-	}
-
-	#copyright {
-		font-size: 12px;
-		margin-left: 30%;
-		margin-top: 50px;
-		width: 600px;
-	}
-}
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	ul {
-		margin-top: 20px;
-	}
-	.#f78f31_section {
-		font-size: 30px;
-		width: 55px;
-		margin-right: 40px;
-	}
-	#project_section ul li a {
-		font-size: 21px;
-	}
-	#project_section ul li a:hover {
-		color: #f78f31;
-	}
-
-	#project_section ul li a:active {
-		font-size: 21px;
-	}
-	.array_section {
-		font-size: 17px;
-	}
-
-	.page_titles {
-		text-align: left;
-		margin-left: 17%;
-	}
-	.project_links {
-		width: 200px;
-		margin-left: 17%;
-	}
-	.project_description {
-		margin-left: 17%;
-	}
-	.detail_description {
-		margin-left: 40%;
-		width: 650px;
-	}
-	#contacts ul {
-		margin-left: 25%;
-	}
-	
-	#contacts ul li a{
-		font-size: 18px;
-	}
-	#contacts ul li a:hover{
-		font-size: 18px;
-	}
-	#contacts ul li a:active{
-		font-size: 17px;
-	}
-}
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-
-
-
 #contact{
-	/*background-color: pink;*/
+	/*background-color: blue;*/
+	width: 50%;
+	margin-left: 25%;
 }
 
-#contact #email{
-	/*background-color: grey;*/
-}
 
 
 #say_hello{
+
 	color: black;
+	float: left;
+	margin-left: 10%;
 	font-size: 1.6em;
 	letter-spacing: 2px;
+	/*background-color: pink;*/
 }
 #equal{
+
+	float: left;
 	color: #f78f31;
 	font-size: 2em;
 	padding-left: 20px;
+}
+
+#email{
+	background-color: grey;
+	text-align: center;
 }
 
 #hello{
 	color: #f78f31;
 	font-size: 1.6em;
 	padding-left: 20px;
+	float: left;
 	letter-spacing: 2px;
 }
 
 .color{
 	color: #f78f31;
+	font-size: 1.2em;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#copy{
+	color: #aaa;
+	/*background-color: pink;*/
+	text-align: center;
+	width: 90%;
+	padding-top: 30px;
+}
+
+#social{
+	list-style-type: none;
+	/*background-color: pink;*/
+	width: 70%;
+	margin-left: 10%;
+	clear: left;
+	padding-top: 20px;
+}
+
+#social li{
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.media{
+	letter-spacing: 2px;
+	font-size: 1.1em;
 }

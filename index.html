@@ -2,7 +2,6 @@
 <html>
 	<head>
 	  <!-- Latest compiled and minified CSS -->
-	 <meta charset="utf-8">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -12,6 +11,7 @@
 	<script type="text/javascript" src="fullpageJS/jquery.fullPage.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/index.css">
 	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/ico" href="favicon.png"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>James Hwang</title>
@@ -35,9 +35,9 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav nav_menus" id="nav_active_menus">
-	        <li class="nav_menus" data-menuanchor="projectss"><a class="home_links" href="#projectss">Projects</a></li>
-	        <li class="nav_menus" data-menuanchor="aboutt"><a class="home_links" href="#aboutt">About</a></li>
-	        <li class="nav_menus" data-menuanchor="contactss"><a class="home_links" href="#contactss">Contact</a></li>
+	        <li class="nav_menus" data-menuanchor="projectss"><a href="#projectss">Projects</a></li>
+	        <li class="nav_menus" data-menuanchor="aboutt"><a href="#aboutt">About</a></li>
+	        <li class="nav_menus" data-menuanchor="contactss"><a href="#contactss">Contact</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 
@@ -63,83 +63,127 @@
 				<ul>
 					<li>
 						<div class="slide">
-							<!-- <h3 class="page_titles">Projects</h3> -->
+							<div class="project">
+								<div class="div_titles">
+									<h4>Simple MEAN Blog </h4>
+									<h5>Personal project/ on progress</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												MongoDB 
+										<span class="color">", " </span>	
+												ExpressJS
+										<span class="color">", " </span>
+												 AngularJS
+										<span class="color"> ", "</span>
+												  NodeJS
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Building out a Hacker News/Reddit clone while learning a new tech stack<br>
+										- Developed CRUD actions using RESTful routes in the MVC structure using MEAN stack<br>
+										- Currently in the process of developing user authentication and deployments<br>
+										- Github link: <a class="project_link" href="#">github.com/91juhwang/simple-mean-blog</a>
+									</div>
+								</div>
+							</div> <!-- end div project-->
+						</div> <!-- end section !-->
+					</li>
+					<li>
+						<div class="slide">
+							<div class="project">
+								<div class="div_titles">
+									<h4>Happy Thoughts</h4>
+									<h5>BACK-END DEVELOPER</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												Javascript 
+										<span class="color">", " </span>	
+												ROR
+										<span class="color">", " </span>
+												D3
+										<span class="color"> ", "</span>
+												 UJS
+										<span class="color"> ", "</span>
+												API Integration
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Keeps a person's record of positive thoughts through daily posts and visualization of most used words <br>
+										- Wrote methods to create a JSON dataset to draw a pie chart using D3 library <br>
+										- Developed CRUD actions using RESTful routes in the MVC structure<br>
+										- Won first place out of 7 groups <br>
+										- Interview link: <a class="project_link" href="#">nycda.com/blog/happy-thoughts</a>  <br>
+										- Github link: <a class="project_link" href="#"> github.com/91juhwang/HappyThoughts</a><br>
+									</div>
+								</div>
+							</div> <!-- end div project-->
 							
-						</div> <!-- slide div cancle !-->
-					</li>
-					<li>
-						<div class="slide">
-							<!-- <h3 class="page_titles">Projects</h3> -->
-							<div class="project_links">
-								<a href="http://www.happy-thought.com" target="_blank">Happy-Thoughts</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span><span class="array_text"> Javascript </span><span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text"> RoR </span> <span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">D3 </span> <span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">UJS </span> <span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">API integration</span> <span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>GROUP PROJECT / BACKEND-DEVELOPER</p>
-							</div>
-							<div class="detail_description">
-								<p>- Keeps a person's record of positive thoughts through daily posts and visualization of most used words. <br>
-								- Developed CRUD actions using RESTful routes in the MVC structure<br>
-								- Won first place out of 7 groups <br>
-								- Interview link: <a id="happy_thoughts" href="https://nycda.com/blog/happy-thoughts">nycda.com/blog/happy-thoughts</a><br>
-								- Github link: <a href="https://github.com/91juhwang/HappyThoughts">github.com/91juhwang/HappyThoughts</a></p>
-							</div>
 						</div>
 					</li>
 					<li>
 						<div class="slide">
-							<!-- <h3 class="page_titles">Projects</h3> -->
-							<div class="project_links">
-								<a href="https://youtu.be/qy2O-fnjitk?list=PLyApqETqziQbC3Pl83E_mnSzgybfW1kHr" target="_blank">League-Lytics</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> <span class="array_text">Javascript </span><span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">Ruby_on_Rails </span> <span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">API Integration </span><span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>PERSONAL PROJECT</p>
-							</div>
-							<div class="detail_description">
-								<p>- Personalized app that provides visual dashboards and in-game improvement suggestions for League of Legends players<br>
-								- Analyzed and visualized insightful statistics by requesting Riot's APIs and normalizing their JSON data<br>
-								- Github link: <a href="https://github.com/91juhwang/LeagueLytics">github.com/91juhwang/LeagueLytics</a></p>
-							</div>
+							<div class="project">
+								<div class="div_titles">
+									<h4>League-Lytics</h4>
+									<h5>personal project</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												Javascript 
+										<span class="color">", " </span>	
+												RubyonRails
+										<span class="color">", " </span>
+												API Integration				
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Keeps a person's record of positive thoughts through daily posts and visualization of most used words <br>
+										- Wrote methods to create a JSON dataset to draw a pie chart using D3 library <br>
+										- Developed CRUD actions using RESTful routes in the MVC structure<br>
+										- Won first place out of 7 groups <br>
+										- Interview link: <a class="project_link" href="#"> nycda.com/blog/happy-thoughts</a> <br>
+										- Github link: <a class="project_link" href="#">github.com/91juhwang/HappyThoughts</a> <br>
+									</div>
+								</div>
+							</div> <!-- end div project-->
 						</div>
 					</li>
 					<li>
 						<div class="slide">
-							<!-- <h3 class="page_titles">Projects</h3> -->
-							<div class="project_links">
-								<a href="https://91juhwang.github.io/JukeBox-" target="_blank">Javascript Juke-Box</a> 
-							</div>
-							<div class="orange_section">
-							=
-							</div>
-							<div class="array_section">
-								<span class="array_color">[ "</span> <span class="array_text">Object_Oriented_Javascript </span><span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">HTML5 </span><span class="array_color">"</span>,
-								<span class="array_color">"</span> <span class="array_text">CSS </span><span class="array_color">" ]</span>
-							</div><br>
-							<div class="project_description">
-								<p>PERSONAL PROJECT</p>
-							</div>
-							<div class="detail_description">
-								<p>- Used object-oriented Javascript to control events such as play, pause, shuffle, and play next or previous song<br>
-								- Github link: <a href="https://github.com/91juhwang/JukeBox-">github.com/91juhwang/JukeBox-</a></p>
-							</div>
+							<div class="project">
+								<div class="div_titles">
+									<h4>Javascript Juke-Box</h4>
+									<h5>personal project</h5>
+								</div>
+								<div class="div_information">
+									<div id="array"> 
+										<span class="color">[ " </span>
+												Object_Oriented_Javascript
+										<span class="color">", " </span>	
+												HTML5
+										<span class="color">", " </span>
+												CSS			
+										<span class="color">" ]</span>
+									</div>
+									<div>
+										<br>
+										- Keeps a person's record of positive thoughts through daily posts and visualization of most used words <br>
+										- Wrote methods to create a JSON dataset to draw a pie chart using D3 library <br>
+										- Developed CRUD actions using RESTful routes in the MVC structure<br>
+										- Won first place out of 7 groups <br>
+										- Interview link: <a class="project_link" href="#">nycda.com/blog/happy-thoughts </a><br>
+										- Github link: <a class="project_link" href="#">github.com/91juhwang/HappyThoughts </a><br>
+									</div>
+								</div>
+							</div> <!-- end div project-->
 						</div>
 					</li>
 				</ul>
@@ -186,14 +230,16 @@
 			<div id="email">
 				<span id="say_hello">SAY HELLO </span>
 				<span id="equal">=</span>
-				<span id="hello"><a href="#">hello.junsuk@gmail.com</a></span>
+				<span id="hello"><a class="email_link" href="#">hello.junsuk@gmail.com</a></span>
 			</div>
-			<div>
-				<span class="color">[</span>RESUME<span class="color">]</span>
+			<div id="social">
+				<li class="media"><span class="color">[</span><a class="media_link" href="#">RESUME</a><span class="color">]</span></li>
+				<li class="media"><span class="color">[</span><a class="media_link" href="#">LINKEDIN</a><span class="color">]</span></li>
+				<li class="media"><span class="color">[</span><a class="media_link" href="#">GITHUB</a><span class="color">]</span></li>
+			</div>
 
-			</div>
-			<div>	
-				Copyright © by James Hwang -Developer- & Imelda Alonso -Designer-,NYC 2016.
+			<div id="copy">	
+				Coded by  James Hwang  designed by Imelda Alonso, NYC 2016.
 			</div>
 		</div>
 	</div>

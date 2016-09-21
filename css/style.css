@@ -1,0 +1,15 @@
+/* ----------- iPhone 5 and 5S ----------- */
+
+@media screen and (min-width: 480px){
+    #say_hello {
+      display: unset;
+    }
+
+      #equal {
+      display: unset;
+    }
+
+    #hello{
+    	
+    }
+}
